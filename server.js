@@ -1,6 +1,4 @@
 import express from "express";
-import { google } from "googleapis";
-import axios from "axios";
 import GoogleCalenderInitView from "./views/GoogleCalenderInitView.js";
 import GoogleCalenderRedirectView from "./views/GoogleCalenderRedirectView.js";
 import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
